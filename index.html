@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Camping</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container header">
+      <nav class="nav__top">
+        <ul class="header__nav">
+          <li class="nav__link">
+            <a class="text-link" href="">About</a>
+          </li>
+          <li>
+            <a class="text-link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="logo" href="#">Camping.</a>
+
+      <div class="btn__group">
+        <button class="btn__top text-link ">Sign In</button>
+        <button class="btn__top text-link">Sign Up</button>
+        <button class="btn__top btn__search text-link"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative">
+    <div class="container main">
+      <section>
+        <h1>Beatiful Places of England</h1>
+
+        <p class="section__left__text">Plan your vacation on the most beatiful places of England</p>
+      </section>
+    </div>
+
+    <section class="absolute section__right">
+      <a class="section__right__text" href="#">
+        <p class="section__right__link">Up next</p>
+
+        <h2 class="section__right__heading arrow__next">Aerial View of Rock Cliffs</h2>
+      </a>
+
+      <img src="img/view.jpg" alt="Aerial View of Rock Cliffs">
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <h3 class="form__heading">Book your vacation</h3>
+
+        <div class="fieldset">
+          <label class="label label__accommodation">Accommodation
+            <input type="text" placeholder="6730 Luna Land North Rhiannonmouth" name="accommodation">
+          </label>
+
+          <label class="label label__check-in">Check-in
+            <input type="text" placeholder="19.06.2019" name="check-in">
+          </label>
+
+          <label class="label label__check-out">Check-out
+            <input type="text" placeholder="19.06.2019" name="check-out">
+          </label>
+
+          <label class="label label__guests">Guests
+            <input type="text" placeholder="4 adults" name="guests">
+          </label>
+        </div>
+
+        <button class="btn__form" type="submit">Search</button>
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>
